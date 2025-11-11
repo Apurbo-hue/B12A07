@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook,faLinkedin,faXTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook,faLinkedin,faXTwitter,faMailchimp } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 const Footer = () => {
     return (
         <>
@@ -33,10 +34,10 @@ const Footer = () => {
                 </nav>
                 <nav>
                     <h6 className="footer-title">Social Links</h6>
-                    <a className="link link-hover"><FontAwesomeIcon icon={faXTwitter}/>@CS — Ticket System</a>
-                    <a className="link link-hover"><FontAwesomeIcon icon={faLinkedin}/>@CS — Ticket System</a>
-                    <a className="link link-hover"><FontAwesomeIcon icon={faFacebook}/>@CS — Ticket System</a>
-                    <a className="link link-hover">support@cst.com</a>
+                    <a className="link link-hover"><FontAwesomeIcon icon={faXTwitter}/> @CS — Ticket System</a>
+                    <a className="link link-hover"><FontAwesomeIcon icon={faLinkedin}/> @CS — Ticket System</a>
+                    <a className="link link-hover"><FontAwesomeIcon icon={faFacebook}/> @CS — Ticket System</a>
+                    <a className="link link-hover"><FontAwesomeIcon icon={faEnvelope}/> support@cst.com</a>
                 </nav>
              </div>
 

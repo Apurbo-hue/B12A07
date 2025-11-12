@@ -1,9 +1,10 @@
 import React from "react";
+import './App.css'
 import Footer from './assets/components/footer/footer'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
-import './App.css'
 import Navbar from './assets/components/navbar/navbar'
+import Banner from "./assets/components/banner/banner";
+
 
 function App() {
 
@@ -11,6 +12,8 @@ function App() {
     <>
 
        <Navbar></Navbar>
+
+       <Banner></Banner>
     
        <Footer></Footer>
     </>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook,faLinkedin,faXTwitter,faMailchimp } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook,faLinkedin,faXTwitter} from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 const Footer = () => {
     return (
@@ -42,7 +42,7 @@ const Footer = () => {
              </div>
 
   <aside className='bg-neutral p-4 text-white text-center'>
-    <p>© {new Date().getFullYear()} CS - Ticket System. All right reserved .</p>
+    <p>© {new Date().getFullYear()} CS - Ticket System. All right reserved.</p>
   </aside>
            </footer>
         </>

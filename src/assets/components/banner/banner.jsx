@@ -1,15 +1,15 @@
 import React from 'react';
 import '../../../App.css'
-const Banner = () => {
+const Banner = ({inProgress}) => {
     return (
-        <div className='text-black grid grid-cols-2 gap-4 px-10 py-16'>
-            <div className="banner1">
+        <div className='text-black grid sm:grid-cols-2 gap-4 px-10 py-16'>
+            <div className="banner1 rounded-md">
                
                 <h1>In-Progress</h1>
-                <p>0</p>
+                <p>{inProgress}</p>
             </div>
-            
-            <div className='banner2'>
+
+            <div className='banner2 rounded-md'>
                 <h1>Resolved</h1>
                 <p>0</p>
             </div>

@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Website checkout failed on mobile",
+    "description": "Customer reported an error when trying to complete a purchase using the mobile version of the checkout page.",
+    "customer": "Alice Johnson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-11-10"
+  },
+  {
+    "id": 2,
+    "title": "Request for feature: Dark mode setting",
+    "description": "A user requested the addition of a 'dark mode' option for the application interface.",
+    "customer": "Bob Smith",
+    "priority": "Low",
+    "status": "In Progress",
+    "createdAt": "2025-11-10"
+  },
+  {
+    "id": 3,
+    "title": "Server response time unusually slow",
+    "description": "Monitoring detected a significant spike in latency across all API endpoints starting at 10:00 AM UTC.",
+    "customer": "Internal Monitoring",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2025-11-11"
+  },
+  {
+    "id": 4,
+    "title": "Password reset email not received",
+    "description": "User is unable to log in and claims the password reset link was never sent to their email address.",
+    "customer": "Carol Williams",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-11-11"
+  },
+  {
+    "id": 5,
+    "title": "Documentation error in API endpoint example",
+    "description": "Found a typo and incorrect parameter usage in the POST request example for the '/users' endpoint.",
+    "customer": "David Brown",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-11-12"
+  },
+  {
+    "id": 6,
+    "title": "Billing inquiry: Duplicate charge",
+    "description": "Customer was accidentally charged twice for the monthly subscription fee on Nov 1st.",
+    "customer": "Eve Davis",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2025-11-12"
+  },
+  {
+    "id": 7,
+    "title": "UI glitch: Button text overflow",
+    "description": "On small screens, the 'Submit Order' button text overlaps with the icon.",
+    "customer": "Frank Miller",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-11-12"
+  },
+  {
+    "id": 8,
+    "title": "Account verification link expired too quickly",
+    "description": "New user tried to verify account after 5 minutes, but the link was already invalid.",
+    "customer": "Grace Wilson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-11-12"
+  },
+  {
+    "id": 9,
+    "title": "Suggestion: Add bulk edit option to dashboard",
+    "description": "A business user needs the ability to select and edit multiple records simultaneously on the main dashboard.",
+    "customer": "Henry Lee",
+    "priority": "Low",
+    "status": "In Progress",
+    "createdAt": "2025-11-12"
+  },
+  {
+    "id": 10,
+    "title": "Export to PDF function crashes application",
+    "description": "When exporting a large data set (over 1000 rows) to PDF, the application throws an unhandled exception.",
+    "customer": "Ivy Chen",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2025-11-12"
+  },
+  {
+    "id": 11,
+    "title": "Question about API rate limits",
+    "description": "Customer needs clarification on the specific daily request limits for the basic subscription tier.",
+    "customer": "Jack Taylor",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2025-11-13"
+  },
+  {
+    "id": 12,
+    "title": "Mobile app navigation link broken",
+    "description": "The 'Contact Us' link in the footer of the iOS app redirects to a 404 error page.",
+    "customer": "Kate Perez",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-11-13"
+  },
+  {
+    "id": 13,
+    "title": "Missing translation for Spanish language pack",
+    "description": "The label for 'Settings' is displayed in English even when the language is set to Spanish.",
+    "customer": "Liam Scott",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2025-11-13"
+  },
+  {
+    "id": 14,
+    "title": "Database connection instability overnight",
+    "description": "System alerts show intermittent disconnections from the primary database between 2:00 AM and 4:00 AM.",
+    "customer": "Internal Monitoring",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2025-11-13"
+  },
+  {
+    "id": 15,
+    "title": "Typo on pricing page headline",
+    "description": "The main headline on the /pricing page has a spelling mistake in the word 'guarantee'.",
+    "customer": "Mia Rodriguez",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2025-11-13"
+  }
+]

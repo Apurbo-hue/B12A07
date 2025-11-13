@@ -1,12 +1,15 @@
 import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
 
-const Ticket = ({ticket,inProgress,setInProgress}) => {
+const Ticket = ({ticket,inProgress,setInProgress,taskStatus,setTaskStatus}) => {
 
-    console.log(ticket)
+
 
 
     return (
-        <div onClick={()=>setInProgress(inProgress+1)} className='text-black p-4 rounded-sm shadow-md'>
+        <div onClick={()=>{setInProgress(inProgress+1);
+            setTaskStatus([...taskStatus,ticket.title]);toast(ticket.title)
+        }} className='text-black bg-white p-4 rounded-sm shadow-md'>
            <div className='flex justify-between'>
              <h1 className='font-bold'>{ticket.title}</h1>
             <p className={`${ticket.status==='Open'?'text-green-700 bg-green-400':'text-yellow-800 bg-amber-200'} rounded p-1`}>{ticket.status}</p>

@@ -17,6 +17,16 @@ function App() {
   const [taskStatus, setTaskStatus] = useState([])
   const [taskResolved, setTaskResolved]=useState([])
 
+  const removeProgress = (task)=>{
+             const any =taskStatus.filter(arr=>arr!==task)
+             console.log(task)
+
+             console.log(any)
+
+             setTaskStatus(any)
+            
+  }
+
   return (
     <>
 
@@ -31,7 +41,7 @@ function App() {
           </Suspense>
         </div>
         <div className="col-span-1 text-center border">
-          <Status taskResolved={taskResolved} setTaskResolved={setTaskResolved} taskStatus={taskStatus}></Status>
+          <Status removeProgress={removeProgress} inProgress={inProgress} setInProgress={setInProgress} taskResolved={taskResolved} setTaskResolved={setTaskResolved} taskStatus={taskStatus}></Status>
           <Resolve taskResolved={taskResolved}></Resolve>
         </div>
       </div>

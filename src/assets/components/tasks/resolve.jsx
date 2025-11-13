@@ -3,7 +3,7 @@ import React from 'react';
 const Resolve = ({taskResolved}) => {
 
     return (
-        <div className='text-black'>
+        <div className='text-black mt-4'>
             <h1 className='text-2xl text-[#8996a1] text-left font-bold'>Resolved Tasks</h1>
             
                  {

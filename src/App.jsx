@@ -19,9 +19,6 @@ function App() {
 
   const removeProgress = (task)=>{
              const any =taskStatus.filter(arr=>arr!==task)
-             console.log(task)
-
-             console.log(any)
 
              setTaskStatus(any)
             
@@ -34,13 +31,13 @@ function App() {
 
       <Banner taskResolved={taskResolved} inProgress={inProgress}></Banner>
 
-      <div className="max-full px-10 grid sm:grid-cols-5">
+      <div className="max-full px-10 sm:grid sm:grid-cols-5">
         <div className="col-span-4 w-full">
           <Suspense>
             <Tickets taskStatus={taskStatus} setTaskStatus={setTaskStatus} inProgress={inProgress} setInProgress={setInProgress} ticketPromise={ticketPromise}></Tickets>
           </Suspense>
         </div>
-        <div className="col-span-1 text-center border">
+        <div className="col-span-1 text-center mt-4">
           <Status removeProgress={removeProgress} inProgress={inProgress} setInProgress={setInProgress} taskResolved={taskResolved} setTaskResolved={setTaskResolved} taskStatus={taskStatus}></Status>
           <Resolve taskResolved={taskResolved}></Resolve>
         </div>

@@ -10,7 +10,7 @@ import Resolve from "./assets/components/tasks/resolve";
 import { ToastContainer} from 'react-toastify';
 
 
-const ticketPromise = fetch('./../public/ticket.json').then(res => res.json())
+const ticketPromise = fetch('/ticket.json').then(res => res.json())
 
 function App() {
   const [inProgress, setInProgress] = useState(0)
